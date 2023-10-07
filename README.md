@@ -58,11 +58,8 @@ Leveraging the power of LLM (Language Models) and the `langchain` library, our s
 
 Below is a demonstration of how you can use the CLI tool to interactively query the content of a given URL:
 
-```bash
-$ poetry run python -m talking_sites_poetry https://nextjs.org/docs/app/building-your-application/caching
-Fetching pages: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  4.70it/s]
-Enter q to exit anytime
-```
+
+[![Demo Video](https://img.youtube.com/vi/9y1eUo_nRTY/maxresdefault.jpg)](https://www.youtube.com/watch?v=9y1eUo_nRTY)
 
 **Query**: 
 ```bash
