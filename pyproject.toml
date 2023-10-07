@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "talking-sites"
+version = "0.1.0"
+description = ""
+authors = ["Zain Zafar <zaing.143@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+talking-sites = "talking-sites"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+typer = {extras = ["all"], version = "^0.9.0"}
+langchain = "^0.0.310"
+openai = "^0.28.1"
+faiss-cpu = "^1.7.4"
+tiktoken = "^0.5.1"
+html2text = "^2020.1.16"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
